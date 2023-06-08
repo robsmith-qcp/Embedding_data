@@ -1,0 +1,91 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+init E= -582.201706566771
+  HOMO = -0.269121224762465  LUMO = 0.01417304898119
+cycle= 1 E= -580.05487001413  delta_E= 2.15  |g|= 0.951  |ddm|= 5.16
+  HOMO = -0.335731510517273  LUMO = 0.0840102151027427
+cycle= 2 E= -580.225219042358  delta_E= -0.17  |g|= 0.63  |ddm|= 1.16
+  HOMO = -0.409947101750022  LUMO = 0.125621364862441
+cycle= 3 E= -580.298850871829  delta_E= -0.0736  |g|= 0.139  |ddm|= 0.562
+  HOMO = -0.402621643662941  LUMO = 0.139471097348119
+cycle= 4 E= -580.304124183786  delta_E= -0.00527  |g|= 0.0471  |ddm|= 0.141
+  HOMO = -0.410333851936904  LUMO = 0.137281425019202
+cycle= 5 E= -580.304621300087  delta_E= -0.000497  |g|= 0.0103  |ddm|= 0.0522
+  HOMO = -0.411337119293058  LUMO = 0.137224723256664
+cycle= 6 E= -580.304673205761  delta_E= -5.19e-05  |g|= 0.00402  |ddm|= 0.0183
+  HOMO = -0.41150001839606  LUMO = 0.137774238994028
+cycle= 7 E= -580.304685651591  delta_E= -1.24e-05  |g|= 0.00163  |ddm|= 0.0112
+  HOMO = -0.411913764436206  LUMO = 0.137702361124859
+cycle= 8 E= -580.30468744741  delta_E= -1.8e-06  |g|= 0.000444  |ddm|= 0.00444
+  HOMO = -0.411933014651775  LUMO = 0.137725250863107
+cycle= 9 E= -580.304687584524  delta_E= -1.37e-07  |g|= 8.65e-05  |ddm|= 0.00118
+  HOMO = -0.411922445369039  LUMO = 0.137728128061133
+cycle= 10 E= -580.304687589229  delta_E= -4.7e-09  |g|= 3.04e-05  |ddm|= 0.000172
+  HOMO = -0.411928334314402  LUMO = 0.137721186291679
+cycle= 11 E= -580.304687589628  delta_E= -3.99e-10  |g|= 8.76e-06  |ddm|= 4.51e-05
+  HOMO = -0.411926102026048  LUMO = 0.137723081653525
+Extra cycle  E= -580.30468758967  delta_E= -4.18e-11  |g|= 4.62e-06  |ddm|= 1.45e-05
+converged SCF energy = -580.30468758967
+AOs:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]
+109
+
+ AO indices used for projection:  [0, 1, 3, 4, 5, 14, 19, 24, 25, 27, 28, 29, 38, 39, 41, 42, 43, 52, 53, 55, 56, 57, 66, 67, 69, 70, 71, 80, 85, 86, 88, 89, 90, 99, 104]
+ # of orbitals to keep:  35
+Number of Active MOs:  35
+Number of Environment MOs:  18
+Number of Virtual MOs:  249
+ # electrons:            α            β
+         Env:  18.00000000  18.00000000
+         Act:  35.00000000  35.00000000
+         Vir:  -0.00000000  -0.00000000
+Number of electrons in the active space:  70
+
+ The density matrix is idempotent!
+
+ The density matrix is idempotent!
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = subsys_scf.chk
+max_memory 900000 MB (current use 8560 MB)
+init E= 26.4734021891237
+  HOMO = -0.414835693053766  LUMO = 0.137722037418273
+cycle= 1 E= 26.4733433562863  delta_E= -5.88e-05  |g|= 8.21e-06  |ddm|= 1.1e-05
+  HOMO = -0.414834642582956  LUMO = 0.137722814990936
+cycle= 2 E= 26.473343355074  delta_E= -1.21e-09  |g|= 5.05e-06  |ddm|= 8e-06
+  HOMO = -0.414834924708122  LUMO = 0.137722634861165
+cycle= 3 E= 26.4733433558509  delta_E= 7.77e-10  |g|= 1.38e-06  |ddm|= 2.38e-06
+  HOMO = -0.414835004706467  LUMO = 0.13772255430347
+Extra cycle  E= 26.4733433563941  delta_E= 5.43e-10  |g|= 8.59e-07  |ddm|= 2.45e-06
+converged SCF energy = 26.4733433563941
+Difference in energy:  -4.264682934262964e-07
+E(MP2) = 25.1812204421107  E_corr = -1.29212291428342
+Total energy =  -581.5968105032734
+time elapsed:  12.725802659988403
