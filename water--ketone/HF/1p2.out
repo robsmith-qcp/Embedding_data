@@ -1,0 +1,45 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+init E= -582.470933211088
+  HOMO = -0.272129732817755  LUMO = 0.0098363976170683
+cycle= 1 E= -579.993943021588  delta_E= 2.48  |g|= 0.967  |ddm|= 5.17
+  HOMO = -0.253992005476786  LUMO = 0.0514851852515436
+cycle= 2 E= -580.17806652005  delta_E= -0.184  |g|= 0.608  |ddm|= 1.18
+  HOMO = -0.39413164415222  LUMO = 0.110183252953849
+cycle= 3 E= -580.247513315149  delta_E= -0.0694  |g|= 0.133  |ddm|= 0.525
+  HOMO = -0.39742887879464  LUMO = 0.123687424151894
+cycle= 4 E= -580.252373709527  delta_E= -0.00486  |g|= 0.0512  |ddm|= 0.14
+  HOMO = -0.389894060900154  LUMO = 0.120748261307833
+cycle= 5 E= -580.25291545807  delta_E= -0.000542  |g|= 0.00967  |ddm|= 0.0511
+  HOMO = -0.39294927074188  LUMO = 0.120599505519866
+cycle= 6 E= -580.252960769338  delta_E= -4.53e-05  |g|= 0.00369  |ddm|= 0.0168
+  HOMO = -0.392824123827089  LUMO = 0.121073453500722
+cycle= 7 E= -580.252970115563  delta_E= -9.35e-06  |g|= 0.00154  |ddm|= 0.009
+  HOMO = -0.393146998169914  LUMO = 0.121073776518545
+cycle= 8 E= -580.252971733807  delta_E= -1.62e-06  |g|= 0.000445  |ddm|= 0.00402
+  HOMO = -0.393169026532813  LUMO = 0.121070630238777
+cycle= 9 E= -580.252971866069  delta_E= -1.32e-07  |g|= 9.34e-05  |ddm|= 0.00114
+  HOMO = -0.393160199618721  LUMO = 0.12108012834382
+cycle= 10 E= -580.252971871455  delta_E= -5.39e-09  |g|= 3.39e-05  |ddm|= 0.000178
+  HOMO = -0.393162006626118  LUMO = 0.121072014986171
+cycle= 11 E= -580.252971871956  delta_E= -5.01e-10  |g|= 7.79e-06  |ddm|= 5.22e-05
+  HOMO = -0.393161408149595  LUMO = 0.121073436231217
+Extra cycle  E= -580.252971871992  delta_E= -3.59e-11  |g|= 3.76e-06  |ddm|= 1.23e-05
+converged SCF energy = -580.252971871992
+AOs:  []
+0
