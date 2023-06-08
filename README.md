@@ -1,0 +1,1 @@
+This repo contains data related to projection-based embedding studies using the SPADE partitioning system and variants thereof, and inluding active spaces defined through concentric localization. Subdirectories that use molecular geometries in publication will include the citation to that work in a README file.
