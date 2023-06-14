@@ -1,0 +1,132 @@
+
+
+******** <class 'pyscf.dft.rks.RKS'> ********
+method = RKS-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+XC library pyscf.dft.libxc version 5.1.7
+    S. Lehtola, C. Steigemann, M. J. Oliveira, and M. A. Marques, SoftwareX 7, 1 (2018)
+XC functionals = b3lyp
+    P. A. M. Dirac, Math. Proc. Cambridge Philos. Soc. 26, 376 (1930)
+    F. Bloch, Z. Phys. 57, 545 (1929)
+    A. D. Becke, Phys. Rev. A 38, 3098 (1988)
+    C. Lee, W. Yang, and R. G. Parr, Phys. Rev. B 37, 785 (1988)
+    B. Miehlich, A. Savin, H. Stoll, and H. Preuss, Chem. Phys. Lett. 157, 200 (1989)
+    S. H. Vosko, L. Wilk, and M. Nusair, Can. J. Phys. 58, 1200 (1980)
+small_rho_cutoff = 1e-07
+init E= -777.149948308533
+  HOMO = -0.21931765602652  LUMO = -0.189708981883931
+cycle= 1 E= -774.586939948116  delta_E= 2.56  |g|= 1.06  |ddm|= 6.21
+  HOMO = -0.0379783969597219  LUMO = -0.00344780472711604
+cycle= 2 E= -770.042803262626  delta_E= 4.54  |g|= 2.99  |ddm|= 4.11
+  HOMO = -0.121952874440507  LUMO = -0.0759955127322062
+cycle= 3 E= -774.661589708326  delta_E= -4.62  |g|= 0.766  |ddm|= 3.88
+  HOMO = -0.137822325652544  LUMO = -0.120376596634982
+cycle= 4 E= -774.591172917764  delta_E= 0.0704  |g|= 0.785  |ddm|= 2.34
+  HOMO = -0.16123885842232  LUMO = -0.134674374608141
+cycle= 5 E= -774.809207920978  delta_E= -0.218  |g|= 0.522  |ddm|= 2.07
+  HOMO = -0.146868096854921  LUMO = -0.126443512275339
+cycle= 6 E= -774.798375332405  delta_E= 0.0108  |g|= 0.458  |ddm|=  1.7
+  HOMO = -0.151177740135279  LUMO = -0.129102831335201
+cycle= 7 E= -774.895754003663  delta_E= -0.0974  |g|= 0.161  |ddm|= 0.737
+  HOMO = -0.153918310671976  LUMO = -0.121924456422302
+cycle= 8 E= -774.900726342325  delta_E= -0.00497  |g|= 0.126  |ddm|= 0.165
+  HOMO = -0.158655822103668  LUMO = -0.122251137657516
+cycle= 9 E= -774.90423187717  delta_E= -0.00351  |g|= 0.0887  |ddm|= 0.123
+  HOMO = -0.158995220005175  LUMO = -0.120816007910153
+cycle= 10 E= -774.906033525023  delta_E= -0.0018  |g|= 0.0565  |ddm|= 0.0685
+  HOMO = -0.159204810157264  LUMO = -0.120728135745138
+cycle= 11 E= -774.907242240743  delta_E= -0.00121  |g|= 0.0256  |ddm|= 0.068
+  HOMO = -0.15944863491127  LUMO = -0.120726317343441
+cycle= 12 E= -774.907506625027  delta_E= -0.000264  |g|= 0.00619  |ddm|= 0.0499
+  HOMO = -0.159683870741701  LUMO = -0.121119607880087
+cycle= 13 E= -774.907515148807  delta_E= -8.52e-06  |g|= 0.00358  |ddm|= 0.0123
+  HOMO = -0.15964022089205  LUMO = -0.121103817095918
+cycle= 14 E= -774.907518210774  delta_E= -3.06e-06  |g|= 0.00209  |ddm|= 0.00394
+  HOMO = -0.159607767949684  LUMO = -0.121029412102847
+cycle= 15 E= -774.907519769542  delta_E= -1.56e-06  |g|= 0.000702  |ddm|= 0.00266
+  HOMO = -0.15963245900687  LUMO = -0.121051563287934
+cycle= 16 E= -774.907519980531  delta_E= -2.11e-07  |g|= 0.000117  |ddm|= 0.00142
+  HOMO = -0.159626656280855  LUMO = -0.121050328609982
+cycle= 17 E= -774.907519983443  delta_E= -2.91e-09  |g|= 7.81e-05  |ddm|= 0.000218
+  HOMO = -0.159626892155884  LUMO = -0.12105273093119
+cycle= 18 E= -774.907519985045  delta_E= -1.6e-09  |g|= 2.67e-05  |ddm|= 0.000101
+  HOMO = -0.159625662039169  LUMO = -0.121052423150298
+cycle= 19 E= -774.907519985364  delta_E= -3.19e-10  |g|= 6.39e-06  |ddm|= 4.82e-05
+  HOMO = -0.159625934347559  LUMO = -0.121053481864908
+Extra cycle  E= -774.907519985256  delta_E= 1.08e-10  |g|= 1.8e-05  |ddm|= 4.01e-05
+converged SCF energy = -774.907519985256
+AOs:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+64
+Number of Active MOs:  16
+Number of Environment MOs:  54
+Number of Virtual MOs:  244
+ # electrons:            α            β
+         Env:  54.00000000  54.00000000
+         Act:  16.00000000  16.00000000
+         Vir:   0.00000000   0.00000000
+Number of electrons in the active space:  32
+
+ The density matrix is idempotent!
+
+ The density matrix is idempotent!
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = subsys_scf.chk
+max_memory 900000 MB (current use 10680 MB)
+init E= 992.637306889397
+  HOMO = -0.18445747529561  LUMO = -0.00100569690183816
+cycle= 1 E= 992.607644246658  delta_E= -0.0297  |g|= 0.0629  |ddm|= 0.681
+  HOMO = -0.188919550981726  LUMO = -0.000228452787408869
+cycle= 2 E= 992.604909390611  delta_E= -0.00273  |g|= 0.0241  |ddm|= 0.174
+  HOMO = -0.190214141205952  LUMO = 0.00561108150582952
+cycle= 3 E= 992.604001537851  delta_E= -0.000908  |g|= 0.0188  |ddm|= 0.0898
+  HOMO = -0.190764185515982  LUMO = 0.00693731646991168
+cycle= 4 E= 992.603677774469  delta_E= -0.000324  |g|= 0.00815  |ddm|= 0.0553
+  HOMO = -0.192375689358984  LUMO = 0.00817285268782771
+cycle= 5 E= 992.603508236014  delta_E= -0.00017  |g|= 0.00477  |ddm|= 0.0542
+  HOMO = -0.192507897164968  LUMO = 0.00848104083329859
+cycle= 6 E= 992.603477324633  delta_E= -3.09e-05  |g|= 0.00266  |ddm|= 0.0219
+  HOMO = -0.192481833876224  LUMO = 0.00826179617555723
+cycle= 7 E= 992.603464430908  delta_E= -1.29e-05  |g|= 0.00168  |ddm|= 0.0146
+  HOMO = -0.192285790586798  LUMO = 0.00804986362924546
+cycle= 8 E= 992.603457061485  delta_E= -7.37e-06  |g|= 0.00071  |ddm|= 0.0153
+  HOMO = -0.19222076394639  LUMO = 0.00786502665137621
+cycle= 9 E= 992.603455562826  delta_E= -1.5e-06  |g|= 0.000234  |ddm|= 0.00862
+  HOMO = -0.192156098365652  LUMO = 0.00786178841062078
+cycle= 10 E= 992.603455491439  delta_E= -7.14e-08  |g|= 7.96e-05  |ddm|= 0.00174
+  HOMO = -0.192149995602808  LUMO = 0.00784137908358904
+cycle= 11 E= 992.603455484149  delta_E= -7.29e-09  |g|= 2.57e-05  |ddm|= 0.000619
+  HOMO = -0.192149385215096  LUMO = 0.00784140470997375
+cycle= 12 E= 992.603455483748  delta_E= -4.01e-10  |g|= 7.21e-06  |ddm|= 0.000102
+  HOMO = -0.192148789335817  LUMO = 0.00784113056921904
+Extra cycle  E= 992.60345548358  delta_E= -1.68e-10  |g|= 3.16e-06  |ddm|= 2.06e-05
+converged SCF energy = 992.60345548358
+Difference in energy:  -701.7311687081088
+E(MP2) = 992.024743985688  E_corr = -0.578711497892127
+Total energy =  -774.3679526211254
+time elapsed:  36.562920570373535

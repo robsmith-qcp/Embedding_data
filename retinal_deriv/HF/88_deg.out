@@ -1,0 +1,101 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+init E= -774.894236981153
+  HOMO = -0.140844908941241  LUMO = -0.0953102580090597
+cycle= 1 E= -769.884932564909  delta_E= 5.01  |g|= 1.01  |ddm|= 5.91
+  HOMO = -0.129350183503523  LUMO = -0.121198551580208
+cycle= 2 E= -769.553469137102  delta_E= 0.331  |g|= 1.46  |ddm|= 2.46
+  HOMO = -0.205061921654238  LUMO = -0.0623756961901784
+cycle= 3 E= -770.187555797514  delta_E= -0.634  |g|= 0.359  |ddm|= 1.91
+  HOMO = -0.193689085401439  LUMO = -0.057744661115855
+cycle= 4 E= -770.235997165627  delta_E= -0.0484  |g|= 0.127  |ddm|= 0.602
+  HOMO = -0.190480524823298  LUMO = -0.0401556615938258
+cycle= 5 E= -770.244177920738  delta_E= -0.00818  |g|= 0.0475  |ddm|= 0.22
+  HOMO = -0.198626306334513  LUMO = -0.0310344460871932
+cycle= 6 E= -770.247519528117  delta_E= -0.00334  |g|= 0.0289  |ddm|= 0.163
+  HOMO = -0.20021990516881  LUMO = -0.0247116599373583
+cycle= 7 E= -770.248908511575  delta_E= -0.00139  |g|= 0.0187  |ddm|= 0.111
+  HOMO = -0.203231906030125  LUMO = -0.0219050776659485
+cycle= 8 E= -770.249879898686  delta_E= -0.000971  |g|= 0.0132  |ddm|= 0.114
+  HOMO = -0.205409897173198  LUMO = -0.0213077971128556
+cycle= 9 E= -770.250434797959  delta_E= -0.000555  |g|= 0.0118  |ddm|= 0.0749
+  HOMO = -0.207403805757351  LUMO = -0.0199010877053754
+cycle= 10 E= -770.251195376553  delta_E= -0.000761  |g|= 0.0113  |ddm|= 0.114
+  HOMO = -0.212293430292638  LUMO = -0.0162285487516463
+cycle= 11 E= -770.252323938328  delta_E= -0.00113  |g|= 0.00885  |ddm|= 0.231
+  HOMO = -0.213365028738827  LUMO = -0.0165080432638306
+cycle= 12 E= -770.25265076674  delta_E= -0.000327  |g|= 0.00403  |ddm|= 0.126
+  HOMO = -0.214971416857157  LUMO = -0.0151363590363189
+cycle= 13 E= -770.252741288456  delta_E= -9.05e-05  |g|= 0.00304  |ddm|= 0.0941
+  HOMO = -0.213146658050559  LUMO = -0.0165720185379825
+cycle= 14 E= -770.25274093189  delta_E= 3.57e-07  |g|= 0.00126  |ddm|= 0.0158
+  HOMO = -0.214298779781938  LUMO = -0.0157261667028091
+cycle= 15 E= -770.252746338473  delta_E= -5.41e-06  |g|= 0.000555  |ddm|= 0.025
+  HOMO = -0.21409483783602  LUMO = -0.0158545135230425
+cycle= 16 E= -770.252746532728  delta_E= -1.94e-07  |g|= 0.000163  |ddm|= 0.00148
+  HOMO = -0.21406331627738  LUMO = -0.0158671079454785
+cycle= 17 E= -770.25274656347  delta_E= -3.07e-08  |g|= 6.1e-05  |ddm|= 0.000641
+  HOMO = -0.214027115628094  LUMO = -0.0159041802660347
+cycle= 18 E= -770.252746567305  delta_E= -3.84e-09  |g|= 2.18e-05  |ddm|= 0.000672
+  HOMO = -0.214037405183808  LUMO = -0.015893646241143
+cycle= 19 E= -770.252746568188  delta_E= -8.82e-10  |g|= 8.33e-06  |ddm|= 0.000303
+  HOMO = -0.214035683630207  LUMO = -0.0158954090145672
+Extra cycle  E= -770.252746568226  delta_E= -3.82e-11  |g|= 5.15e-06  |ddm|= 2.22e-05
+converged SCF energy = -770.252746568226
+AOs:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+64
+Number of Active MOs:  16
+Number of Environment MOs:  54
+Number of Virtual MOs:  244
+ # electrons:            α            β
+         Env:  54.00000000  54.00000000
+         Act:  16.00000000  16.00000000
+         Vir:  -0.00000000  -0.00000000
+Number of electrons in the active space:  32
+
+ The density matrix is idempotent!
+
+ The density matrix is idempotent!
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = subsys_scf.chk
+max_memory 900000 MB (current use 10103 MB)
+init E= 992.791921211221
+  HOMO = -0.220595975957271  LUMO = -0.0158960425168362
+cycle= 1 E= 992.791920591661  delta_E= -6.2e-07  |g|= 2.76e-06  |ddm|= 9.55e-06
+  HOMO = -0.220596283624272  LUMO = -0.0158960038843346
+cycle= 2 E= 992.791920591306  delta_E= -3.55e-10  |g|= 1.94e-06  |ddm|= 6.43e-06
+  HOMO = -0.22059596640832  LUMO = -0.0158962010902254
+Extra cycle  E= 992.791920591527  delta_E= 2.21e-10  |g|= 1.12e-06  |ddm|= 4.15e-06
+converged SCF energy = 992.791920591527
+Difference in energy:  1.4981321783125168e-07
+Total mean-field energy =  -770.2527465684648
+time elapsed:  7.713364362716675

@@ -1,0 +1,96 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com, https://pypi.ngc.nvidia.com
+Requirement already satisfied: numpy in /home/robs84/.local/lib/python3.8/site-packages (1.22.2)
+Requirement already satisfied: scipy in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (1.5.2)
+Requirement already satisfied: h5py in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (2.10.0)
+Requirement already satisfied: pyscf in /home/robs84/.local/lib/python3.8/site-packages (2.0.1)
+Requirement already satisfied: six in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (from h5py) (1.15.0)
+WARNING: There was an error checking the latest version of pip.
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac09ab520> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac09ab520> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfed700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfed700> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfee700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfee700> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfef700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfef700> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfee700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfee700> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfee700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfee700> in <pyscf.dft.rks.RKS object at 0x2aaaaac18e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfee700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfee700> in <pyscf.dft.rks.RKS object at 0x2aaaaac19e50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bbeca0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bbeca0> in <pyscf.dft.rks.RKS object at 0x2aaac0bbeaf0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bbfca0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bbfca0> in <pyscf.dft.rks.RKS object at 0x2aaac0bbfaf0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0c433a0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0c433a0> in <pyscf.dft.rks.RKS object at 0x2aaac0c43250>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0c43100> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0c43100> in <pyscf.dft.rks.RKS object at 0x2aaac0c43250>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaaaac72970> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaaaac72970> in <pyscf.dft.rks.RKS object at 0x2aaaaac726d0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac09ac520> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac09ac520> in <pyscf.dft.rks.RKS object at 0x2aaac0bc0af0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac09ac520> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac09ac520> in <pyscf.dft.rks.RKS object at 0x2aaabed6f190>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bbfaf0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bbfaf0> in <pyscf.dft.rks.RKS object at 0x2aaac0bbfe80>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaaaac73970> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaaaac73970> in <pyscf.dft.rks.RKS object at 0x2aaaaac736d0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac09ac520> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac09ac520> in <pyscf.dft.rks.RKS object at 0x2aaac0bbfaf0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bc1af0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bc1af0> in <pyscf.dft.rks.RKS object at 0x2aaac0bc1e80>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0c423a0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0c423a0> in <pyscf.dft.rks.RKS object at 0x2aaac0c42250>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0c473a0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0c473a0> in <pyscf.dft.rks.RKS object at 0x2aaac0c47250>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bc0ca0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bc0ca0> in <pyscf.dft.rks.RKS object at 0x2aaac0bc0af0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaac0bbfca0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaac0bbfca0> in <pyscf.dft.rks.RKS object at 0x2aaac0bbfaf0>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfef700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfef700> in <pyscf.dft.rks.RKS object at 0x2aaaaac1ae50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaaaac736d0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaaaac736d0> in <pyscf.dft.rks.RKS object at 0x2aaabe2bc190>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaaaac736d0> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaaaac736d0> in <pyscf.dft.rks.RKS object at 0x2aaabe2bb190>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbff0700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbff0700> in <pyscf.dft.rks.RKS object at 0x2aaaaac1ae50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbff0700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbff0700> in <pyscf.dft.rks.RKS object at 0x2aaaaac1ae50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfef700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfef700> in <pyscf.dft.rks.RKS object at 0x2aaaaac1ae50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>
+Warning: <pyscf.gto.mole.Mole object at 0x2aaabbfef700> must be initialized before calling SCF.
+Initialize <pyscf.gto.mole.Mole object at 0x2aaabbfef700> in <pyscf.dft.rks.RKS object at 0x2aaaaac1ae50>
+Overwritten attributes  get_hcore  of <class 'pyscf.dft.rks.RKS'>

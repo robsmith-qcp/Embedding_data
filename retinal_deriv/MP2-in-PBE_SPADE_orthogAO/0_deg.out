@@ -1,0 +1,122 @@
+
+
+******** <class 'pyscf.dft.rks.RKS'> ********
+method = RKS-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+XC library pyscf.dft.libxc version 5.1.7
+    S. Lehtola, C. Steigemann, M. J. Oliveira, and M. A. Marques, SoftwareX 7, 1 (2018)
+XC functionals = pbe
+    J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 77, 3865 (1996)
+    J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 78, 1396 (1997)
+    J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 77, 3865 (1996)
+    J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev. Lett. 78, 1396 (1997)
+small_rho_cutoff = 1e-07
+init E= -776.059004044612
+  HOMO = -0.2572363088261  LUMO = -0.184488658459531
+cycle= 1 E= -774.142138992353  delta_E= 1.92  |g|= 1.16  |ddm|= 6.28
+  HOMO = -0.0372769940343916  LUMO = 0.0133172269755761
+cycle= 2 E= -771.160602969991  delta_E= 2.98  |g|= 2.86  |ddm|= 3.89
+  HOMO = -0.121046209816973  LUMO = -0.0775949749695782
+cycle= 3 E= -773.534625716745  delta_E= -2.37  |g|= 1.54  |ddm|= 3.44
+  HOMO = -0.164850892610107  LUMO = -0.0886800776393451
+cycle= 4 E= -774.444020237401  delta_E= -0.909  |g|= 0.34  |ddm|= 2.17
+  HOMO = -0.174578167748647  LUMO = -0.113096242402601
+cycle= 5 E= -774.427113845988  delta_E= 0.0169  |g|= 0.374  |ddm|= 0.918
+  HOMO = -0.179791127626035  LUMO = -0.110023010222784
+cycle= 6 E= -774.473742603413  delta_E= -0.0466  |g|= 0.149  |ddm|= 0.622
+  HOMO = -0.178289191393674  LUMO = -0.10782104607632
+cycle= 7 E= -774.479785343284  delta_E= -0.00604  |g|= 0.046  |ddm|= 0.194
+  HOMO = -0.178157288175806  LUMO = -0.106639371432258
+cycle= 8 E= -774.48011446137  delta_E= -0.000329  |g|= 0.0296  |ddm|= 0.0773
+  HOMO = -0.178056247424542  LUMO = -0.106825373809638
+cycle= 9 E= -774.480377289049  delta_E= -0.000263  |g|= 0.00903  |ddm|= 0.0386
+  HOMO = -0.178252981615143  LUMO = -0.106951280070584
+cycle= 10 E= -774.480388300469  delta_E= -1.1e-05  |g|= 0.00619  |ddm|= 0.015
+  HOMO = -0.178292612727086  LUMO = -0.106907176855249
+cycle= 11 E= -774.480396949753  delta_E= -8.65e-06  |g|= 0.00287  |ddm|= 0.00926
+  HOMO = -0.178244966911505  LUMO = -0.106863290155463
+cycle= 12 E= -774.480399217091  delta_E= -2.27e-06  |g|= 0.00055  |ddm|= 0.00337
+  HOMO = -0.178241379107775  LUMO = -0.106869422253244
+cycle= 13 E= -774.480399315731  delta_E= -9.86e-08  |g|= 0.000222  |ddm|= 0.000799
+  HOMO = -0.178234944543628  LUMO = -0.106867411611433
+cycle= 14 E= -774.480399330124  delta_E= -1.44e-08  |g|= 8.17e-05  |ddm|= 0.000307
+  HOMO = -0.17823545282493  LUMO = -0.106870363417642
+cycle= 15 E= -774.480399319794  delta_E= 1.03e-08  |g|= 0.000198  |ddm|= 0.000311
+  HOMO = -0.178236905890604  LUMO = -0.106871346848969
+cycle= 16 E= -774.480399331588  delta_E= -1.18e-08  |g|= 3.9e-05  |ddm|= 0.00024
+  HOMO = -0.178236454940268  LUMO = -0.10687001921512
+cycle= 17 E= -774.480399331849  delta_E= -2.61e-10  |g|= 1.93e-05  |ddm|= 4.81e-05
+  HOMO = -0.178236430475571  LUMO = -0.106870033511172
+cycle= 18 E= -774.480399331949  delta_E= -1e-10  |g|= 6.92e-06  |ddm|= 2.61e-05
+  HOMO = -0.178236874583777  LUMO = -0.106869805029395
+Extra cycle  E= -774.480399331813  delta_E= 1.36e-10  |g|= 2.13e-05  |ddm|= 3.7e-05
+converged SCF energy = -774.480399331813
+AOs:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+64
+Number of Active MOs:  16
+Number of Environment MOs:  54
+Number of Virtual MOs:  244
+ # electrons:            α            β
+         Env:  54.00000000  54.00000000
+         Act:  16.00000000  16.00000000
+         Vir:  -0.00000000  -0.00000000
+Number of electrons in the active space:  32
+
+ The density matrix is idempotent!
+
+ The density matrix is idempotent!
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = subsys_scf.chk
+max_memory 900000 MB (current use 10606 MB)
+init E= 1003.80715727242
+  HOMO = -0.245320420839173  LUMO = 0.0464531434657819
+cycle= 1 E= 1003.76291972585  delta_E= -0.0442  |g|= 0.0713  |ddm|= 0.812
+  HOMO = -0.250997928830827  LUMO = 0.0457489263984826
+cycle= 2 E= 1003.75969333019  delta_E= -0.00323  |g|= 0.0234  |ddm|= 0.149
+  HOMO = -0.251454650790796  LUMO = 0.0472803815605413
+cycle= 3 E= 1003.7590443801  delta_E= -0.000649  |g|= 0.00668  |ddm|= 0.0704
+  HOMO = -0.252411773093573  LUMO = 0.0474570294695183
+cycle= 4 E= 1003.75899237316  delta_E= -5.2e-05  |g|= 0.00242  |ddm|= 0.0186
+  HOMO = -0.252800453508113  LUMO = 0.0475891798090389
+cycle= 5 E= 1003.75898650558  delta_E= -5.87e-06  |g|= 0.000677  |ddm|= 0.00671
+  HOMO = -0.252843462567955  LUMO = 0.047604715432384
+cycle= 6 E= 1003.75898621684  delta_E= -2.89e-07  |g|= 0.000172  |ddm|= 0.00155
+  HOMO = -0.252871284627365  LUMO = 0.0476006870192186
+cycle= 7 E= 1003.75898620395  delta_E= -1.29e-08  |g|= 5.98e-05  |ddm|= 0.000316
+  HOMO = -0.252876128922463  LUMO = 0.047597604087051
+cycle= 8 E= 1003.75898620174  delta_E= -2.21e-09  |g|= 2.04e-05  |ddm|= 0.000111
+  HOMO = -0.252877353792832  LUMO = 0.0475959241633626
+cycle= 9 E= 1003.75898620121  delta_E= -5.23e-10  |g|= 7.32e-06  |ddm|= 5.51e-05
+  HOMO = -0.252877411440488  LUMO = 0.0475954618935408
+Extra cycle  E= 1003.75898620134  delta_E= 1.31e-10  |g|= 3.34e-06  |ddm|= 1.39e-05
+converged SCF energy = 1003.75898620134
+Difference in energy:  -630.5010740507269
+E(MP2) = 1003.1932129491  E_corr = -0.565773252243425
+Total energy =  -774.0414060081441
+time elapsed:  31.823405981063843

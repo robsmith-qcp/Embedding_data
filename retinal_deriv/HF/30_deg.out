@@ -1,0 +1,91 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = scf.fchk
+max_memory 900000 MB (current use 79 MB)
+init E= -774.909749724167
+  HOMO = -0.167362566312441  LUMO = -0.069956672730065
+cycle= 1 E= -770.04400370839  delta_E= 4.87  |g|= 0.97  |ddm|= 5.89
+  HOMO = -0.244075087882421  LUMO = -0.0266119465337536
+cycle= 2 E= -770.273086812959  delta_E= -0.229  |g|= 0.643  |ddm|= 1.65
+  HOMO = -0.252876923354108  LUMO = 0.0192517210215413
+cycle= 3 E= -770.352345235445  delta_E= -0.0793  |g|= 0.207  |ddm|= 0.809
+  HOMO = -0.256109017130279  LUMO = 0.0335516174815986
+cycle= 4 E= -770.364910329766  delta_E= -0.0126  |g|= 0.0329  |ddm|= 0.264
+  HOMO = -0.263229394494408  LUMO = 0.0315223535634584
+cycle= 5 E= -770.365630641117  delta_E= -0.00072  |g|= 0.016  |ddm|= 0.0729
+  HOMO = -0.26417027403504  LUMO = 0.0339449784024372
+cycle= 6 E= -770.365875793509  delta_E= -0.000245  |g|= 0.00611  |ddm|= 0.0455
+  HOMO = -0.264436230374405  LUMO = 0.0354821541655431
+cycle= 7 E= -770.365927732518  delta_E= -5.19e-05  |g|= 0.00293  |ddm|= 0.0247
+  HOMO = -0.264658134068481  LUMO = 0.0355757920680094
+cycle= 8 E= -770.36593491813  delta_E= -7.19e-06  |g|= 0.00129  |ddm|= 0.00816
+  HOMO = -0.264667733668141  LUMO = 0.035483814766834
+cycle= 9 E= -770.365936906737  delta_E= -1.99e-06  |g|= 0.000596  |ddm|= 0.00438
+  HOMO = -0.264599292839067  LUMO = 0.0354651449759354
+cycle= 10 E= -770.365937390243  delta_E= -4.84e-07  |g|= 0.000252  |ddm|= 0.00231
+  HOMO = -0.264593427272221  LUMO = 0.035430562652127
+cycle= 11 E= -770.365937458881  delta_E= -6.86e-08  |g|= 7.22e-05  |ddm|= 0.00101
+  HOMO = -0.264591546786025  LUMO = 0.0354225803440299
+cycle= 12 E= -770.365937462912  delta_E= -4.03e-09  |g|= 3.44e-05  |ddm|= 0.000217
+  HOMO = -0.26458990381366  LUMO = 0.035422797315448
+cycle= 13 E= -770.365937463599  delta_E= -6.87e-10  |g|= 1.27e-05  |ddm|= 7.33e-05
+  HOMO = -0.264590749675061  LUMO = 0.0354223918691616
+cycle= 14 E= -770.365937463733  delta_E= -1.33e-10  |g|= 6.47e-06  |ddm|= 3.35e-05
+  HOMO = -0.264591181823051  LUMO = 0.0354217114383014
+Extra cycle  E= -770.365937463749  delta_E= -1.66e-11  |g|= 3.47e-06  |ddm|= 1.28e-05
+converged SCF energy = -770.365937463749
+AOs:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+64
+Number of Active MOs:  16
+Number of Environment MOs:  54
+Number of Virtual MOs:  244
+ # electrons:            α            β
+         Env:  54.00000000  54.00000000
+         Act:  16.00000000  16.00000000
+         Vir:   0.00000000   0.00000000
+Number of electrons in the active space:  32
+
+ The density matrix is idempotent!
+
+ The density matrix is idempotent!
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = subsys_scf.chk
+max_memory 900000 MB (current use 10102 MB)
+init E= 1001.18913123452
+  HOMO = -0.286104696499811  LUMO = 0.035421663941693
+cycle= 1 E= 1001.18913061517  delta_E= -6.19e-07  |g|= 1.21e-06  |ddm|= 3.35e-06
+  HOMO = -0.286104736432201  LUMO = 0.0354216482052936
+cycle= 2 E= 1001.18913061497  delta_E= -1.95e-10  |g|= 6.09e-07  |ddm|= 1.93e-06
+  HOMO = -0.286104770456173  LUMO = 0.0354216277051183
+Extra cycle  E= 1001.18913061517  delta_E= 1.97e-10  |g|= 4.44e-07  |ddm|= 9.81e-07
+converged SCF energy = 1001.18913061517
+Difference in energy:  -2.067422406071273e-07
+Total mean-field energy =  -770.3659374634196
+time elapsed:  6.740033388137817
