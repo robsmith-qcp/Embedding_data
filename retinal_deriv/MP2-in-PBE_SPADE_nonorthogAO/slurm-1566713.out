@@ -1,0 +1,122 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com, https://pypi.ngc.nvidia.com
+Requirement already satisfied: numpy in /home/robs84/.local/lib/python3.8/site-packages (1.22.2)
+Requirement already satisfied: scipy in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (1.5.2)
+Requirement already satisfied: h5py in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (2.10.0)
+Requirement already satisfied: pyscf in /home/robs84/.local/lib/python3.8/site-packages (2.0.1)
+Requirement already satisfied: six in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (from h5py) (1.15.0)
+WARNING: There was an error checking the latest version of pip.
+Traceback (most recent call last):
+  File "0_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "10_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "20_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "30_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "40_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "50_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "60_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "70_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "80_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "85_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "86_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "87_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "88_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+Traceback (most recent call last):
+  File "89_deg.py", line 66, in <module>
+    e, mf, ec = presses.run_embed(keywords)
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/driver.py", line 215, in run_embed
+    Cact, Cenv, s = Orbs.spade(S, Cdocc, Embed.n_aos, Embed.S_proj, orthog=Embed.keywords['orthog'])
+  File "/home/robs84/.local/lib/python3.8/site-packages/presses/orbitals.py", line 133, in spade
+    M = Y[:,:naos] 
+NameError: name 'naos' is not defined
+slurmstepd: error: *** JOB 1566713 ON tc192 CANCELLED AT 2023-07-12T11:36:30 ***

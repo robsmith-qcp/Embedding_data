@@ -1,0 +1,10 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com, https://pypi.ngc.nvidia.com
+Requirement already satisfied: numpy in /home/robs84/.local/lib/python3.8/site-packages (1.22.2)
+Requirement already satisfied: scipy in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (1.5.2)
+Requirement already satisfied: h5py in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (2.10.0)
+Requirement already satisfied: pyscf in /home/robs84/.local/lib/python3.8/site-packages (2.0.1)
+Requirement already satisfied: six in /apps/easybuild/software/tinkercliffs-rome/Anaconda3/2020.11/lib/python3.8/site-packages (from h5py) (1.15.0)
+WARNING: There was an error checking the latest version of pip.
+slurmstepd: error: *** JOB 1566712 ON tc192 CANCELLED AT 2023-07-12T11:18:23 ***
